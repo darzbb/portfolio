@@ -183,6 +183,20 @@ footer {
     color: #7C58E2;
 }
 
+.music {
+    background-color: #7C58E2;
+    color: #f7f0ff;
+    padding-bottom: 50px;
+}
+
+.music h1 {
+    margin-bottom: 0px;
+}
+
+.note {
+    margin-top: 0px;
+}
+
 .contacts img {
     transition: transform 0.3s;
 }
@@ -202,4 +216,12 @@ footer {
     opacity: 1;
     transform: translateY(0);
   }
-  
+
+  .playlist {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap; /* Не дозволяє переходити на новий рядок */
+    gap: 20px; /* Відстань між плейлистами */
+}

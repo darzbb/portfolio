@@ -1,6 +1,6 @@
 // Функція для плавної появи елементів
 function revealElements() {
-    let reveals = document.querySelectorAll('.section_item, .header_content, .github');
+    let reveals = document.querySelectorAll('.section_item, .header_content, .github, .playlist');
   
     for (let i = 0; i < reveals.length; i++) {
       let windowHeight = window.innerHeight;
