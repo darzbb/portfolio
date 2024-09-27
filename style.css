@@ -222,6 +222,6 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    flex-wrap: nowrap; /* Не дозволяє переходити на новий рядок */
-    gap: 20px; /* Відстань між плейлистами */
-}
+    flex-wrap: nowrap;
+    gap: 20px;
+  }
