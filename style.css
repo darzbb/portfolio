@@ -130,6 +130,11 @@ section h1 {
     margin: 0 15px 50px 15px;
 }
 
+.section_item.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
 .section_item img {
     height: 200px;
 }
@@ -186,3 +191,15 @@ footer {
     transform: scale(1.2);
     cursor: pointer;
 }
+
+.section_item, .github, .header_content {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+  }
+  
+  .section_item.active, .github.active, .header_content.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
